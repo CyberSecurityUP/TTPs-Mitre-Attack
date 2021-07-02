@@ -1,0 +1,305 @@
+{
+	"name": "Printnightmare Attack Map 1 by Joas",
+	"versions": {
+		"attack": "9",
+		"navigator": "4.3",
+		"layer": "4.2"
+	},
+	"domain": "enterprise-attack",
+	"description": "",
+	"filters": {
+		"platforms": [
+			"Windows",
+			"PRE",
+			"Network"
+		]
+	},
+	"sorting": 0,
+	"layout": {
+		"layout": "side",
+		"aggregateFunction": "average",
+		"showID": false,
+		"showName": true,
+		"showAggregateScores": false,
+		"countUnscored": false
+	},
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T1087",
+			"tactic": "discovery",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1595",
+			"tactic": "reconnaissance",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1020",
+			"tactic": "exfiltration",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1059",
+			"tactic": "execution",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1136",
+			"tactic": "persistence",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1486",
+			"tactic": "impact",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1585",
+			"tactic": "resource-development",
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": true
+		},
+		{
+			"techniqueID": "T1041",
+			"tactic": "exfiltration",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1190",
+			"tactic": "initial-access",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1592",
+			"tactic": "reconnaissance",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574",
+			"tactic": "persistence",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574",
+			"tactic": "privilege-escalation",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1574",
+			"tactic": "defense-evasion",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1534",
+			"tactic": "lateral-movement",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1046",
+			"tactic": "discovery",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1040",
+			"tactic": "credential-access",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1040",
+			"tactic": "discovery",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055",
+			"tactic": "defense-evasion",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1055",
+			"tactic": "privilege-escalation",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1563",
+			"tactic": "lateral-movement",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1496",
+			"tactic": "impact",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1053",
+			"tactic": "execution",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1053",
+			"tactic": "persistence",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1053",
+			"tactic": "privilege-escalation",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1608",
+			"tactic": "resource-development",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "defense-evasion",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "persistence",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "privilege-escalation",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "initial-access",
+			"color": "#e60d0d",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"showSubtechniques": false
+		}
+	],
+	"gradient": {
+		"colors": [
+			"#ff6666",
+			"#ffe766",
+			"#8ec843"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [],
+	"metadata": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true,
+	"selectSubtechniquesWithParent": false
+}
